@@ -1,8 +1,12 @@
-app-navbar
-div(style="text-align:center")
-  h2 {{hero.name}} details!
-  div
-    label id: {{hero.id}}
-  div
-    label name:
-    input([(ngModel)]="hero.name" placeholder="name")
+div.had-container.blue-grey.darken-3
+  app-sidebar
+  app-navbar
+  div(style="text-align:center")
+    h2 {{hero.name}} details!
+    div
+      label id: {{hero.id}}
+    div
+      label name:
+      input([(ngModel)]="hero.name" placeholder="name")
+      a.btn-floating.btn-large.waves-effect.waves-light((click)="toggle()")
+        i.material-icons add

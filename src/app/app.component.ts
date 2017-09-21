@@ -16,4 +16,8 @@ export class AppComponent {
     id: 1,
     name: 'Windstorm'
   };
+
+  toggle(event) {
+    console.log("toggle");
+  }
 }
