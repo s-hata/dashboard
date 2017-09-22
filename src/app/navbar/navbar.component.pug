@@ -1,20 +1,5 @@
-nav
-  div.nav-wrapper
-    a.button-collapse(href="#" data-activates="slide-out")
-    a.brand-logo(href="#!") Dashboard
-    ul#nav-mobile.right.hide-on-med-and-down
-      li
-        a(href="")
-          i.material-icons search
-      li
-        a(href="")
-          i.material-icons person_add
-      li
-        a(href="")
-          i.material-icons info
-      li
-        a(href="")
-          i.material-icons refresh
-      li
-        a(href="")
-          i.material-icons settings
+md-toolbar
+  a((click)="app-sidenav.open()")
+    md-icon menu
+
+  span Dashboard

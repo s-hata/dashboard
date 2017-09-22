@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { MaterializeModule } from 'angular2-materialize';
 
 export class Hero {
   id: number;
