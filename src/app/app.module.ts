@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 
 import { MdIconModule } from '@angular/material';
 import {MdButtonModule, MdCheckboxModule} from '@angular/material';
+import { MdListModule } from '@angular/material';
 import { MdToolbarModule } from '@angular/material';
 import { MdSidenavModule } from '@angular/material';
 
@@ -23,6 +24,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     BrowserAnimationsModule,
     FormsModule,
     MdIconModule,
+    MdListModule,
     MdToolbarModule,
     MdSidenavModule
   ],
