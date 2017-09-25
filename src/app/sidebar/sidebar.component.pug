@@ -1,11 +1,18 @@
 div.user-view
-  md-list.user-view
+  md-list.user-view(dense)
     md-list-item
       a(href="#!user")
-        md-icon account_circle
+        md-icon(style="font-size: 50px") account_circle
     md-list-item
       a(href="#!name")
         span John Doe
     md-list-item
       a(href="#!email")
         span jdandturk@gmail.com
+  md-list.user-view
+    h3(mdSubheader) AWS
+    md-divider
+    h3(mdSubheader) Management
+    md-list-item
+      md-icon settings
+      p(mdline) Settings
