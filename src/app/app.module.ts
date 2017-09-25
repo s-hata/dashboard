@@ -3,8 +3,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 
+import { MatTooltipModule } from '@angular/material';
 import { MdIconModule } from '@angular/material';
-import {MdButtonModule, MdCheckboxModule} from '@angular/material';
+import { MdButtonModule, MdCheckboxModule } from '@angular/material';
 import { MdListModule } from '@angular/material';
 import { MdToolbarModule } from '@angular/material';
 import { MdSidenavModule } from '@angular/material';
@@ -23,6 +24,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
+    MatTooltipModule,
     MdIconModule,
     MdListModule,
     MdToolbarModule,

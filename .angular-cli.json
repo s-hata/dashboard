@@ -24,7 +24,9 @@
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.js",
-        "../node_modules/hammerjs/hammer.js"
+        "../node_modules/hammerjs/hammer.js",
+        "../node_modules/amazon-cognito-identity-js/dist/aws-cognito-sdk.min.js",
+        "../node_modules/amazon-cognito-identity-js/dist/amazon-cognito-identity.min.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
