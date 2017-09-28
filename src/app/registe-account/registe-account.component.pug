@@ -1,0 +1,16 @@
+h1(md-dialog-title) Regist Account
+div(md-dialog-content)
+  form
+    md-list
+      md-list-item
+        md-form-field
+          input(mdInput [(ngModel)]="account.name" name="name" placeholder="Name")
+      md-list-item
+        md-form-field
+          input(mdInput [(ngModel)]="account.email" name="email" placeholder="Email")
+      md-list-item
+        md-form-field
+          input(mdInput [(ngModel)]="account.password" name="password" placeholder="Password")
+      md-list-item
+        button(md-raised-button color="primary") Regist
+        button(md-raised-button (click)="close()" color="accent") Close

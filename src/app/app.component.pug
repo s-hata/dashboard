@@ -1,5 +1,5 @@
 md-sidenav-container
-  md-sidenav(#sidenav mode="side" opened="true")
+  md-sidenav(#sidenav mode="side" opened="false")
     app-sidebar
   div.app-content
     md-toolbar(color="primary")
@@ -11,7 +11,8 @@ md-sidenav-container
       span.fill-remaining-space
 
       md-icon.icon(mdTooltip="home") home
-      md-icon.icon(mdTooltip="settings") settings
+      span((click)="openRegisteAccount()")
+        md-icon.icon(mdTooltip="settings") settings
 
     div(style="text-align:center")
       h2 {{hero.name}} details!
